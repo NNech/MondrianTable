@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian table</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <table>
+        <!--1 row-->
+        <tr>
+            <td colspan="2">1</td>
+            <td colspan="2">2</td>
+            <td colspan="2" bgcolor="yellow">3</td>
+            <td rowspan="4">4</td>
+        </tr>
+
+        <!--2 row-->
+        <tr>
+            <td>5</td>
+            <td colspan="3" rowspan="2" bgcolor="red">6</td>
+            <td colspan="2" bgcolor="yellow">7</td>
+        </tr>
+
+        <!--3 row-->
+        <tr>
+            <td rowspan="2">8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+
+        <!--4 row-->
+        <tr>
+            <td colspan="2" rowspan="2" bgcolor="black">11</td>
+            <td>12</td>
+            <td colspan="2">13</td>
+        </tr>
+
+        <!--5 row-->
+        <tr>
+            <td rowspan="3" bgcolor="yellow">14</td>
+            <td>15</td>
+            <td colspan="2" rowspan="2" bgcolor="blue">16</td>
+            <td rowspan="3" bgcolor="red">17</td>
+        </tr>
+
+        <!--6row-->
+        <tr>
+            <td colspan="2" rowspan="2">18</td>
+            <td bgcolor="black">19</td>
+        </tr>
+
+        <!--7 row-->
+        <tr>
+            <td colspan="3">20</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
